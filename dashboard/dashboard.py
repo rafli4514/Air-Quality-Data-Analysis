@@ -7,12 +7,9 @@ import seaborn as sns
 # Judul Dashboard
 st.title("Dashboard Polusi Udara")
 
-# Path file dataset
-file_path = os.path.join(os.getcwd(), 'dataset.csv')
-
 # Load Data
 def load_data():
-    df = pd.read_csv(file_path)
+    df = pd.read_csv('dataset.csv')
     return df
 
 df = load_data()
