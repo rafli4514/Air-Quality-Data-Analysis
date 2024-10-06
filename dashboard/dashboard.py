@@ -9,7 +9,7 @@ st.title("Dashboard Polusi Udara")
 
 # Load Data
 def load_data():
-    df = pd.read_csv('dataset.csv')
+    df = pd.read_csv('dashboard/dataset.csv')
     return df
 
 df = load_data()
