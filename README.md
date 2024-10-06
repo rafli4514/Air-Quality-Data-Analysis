@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ## Cara menjalankan
 1. Masuk kedalam direktori dashboard:
-   ```
-   cd Air-Quality-Data-Analysis/dashboard
-   streamlit run dashboard.py
-   ```
+```
+cd Air-Quality-Data-Analysis/dashboard
+streamlit run dashboard.py
+```
